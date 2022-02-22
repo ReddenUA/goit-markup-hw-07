@@ -25,10 +25,11 @@ transition: 250ms;
 padding: 40px;
 
 &-title{
+  font-family: "Roboto", sans-serif;
+  font-weight: bold ;
     font-size: 20px;
 line-height: 1.15;
 text-align: center;
-white-space: nowrap;
 letter-spacing: 0.03em;
 margin-bottom: 12px;
   }
@@ -46,7 +47,7 @@ outline: none;
 transition: border-color 250ms linear;
   }
   }
-.modal-input:focus + &-icon{
+.modal-input:focus + .modal-input-icon{
     fill: #2196f3;
   }
   .modal-input:hover,

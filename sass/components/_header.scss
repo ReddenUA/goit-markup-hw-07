@@ -87,7 +87,7 @@ bottom: -1px;
     margin-left: 50px;
   }
 }
-.connect-header-item{
+.contact-header-item{
 margin-left: 30px;
 }
 
@@ -107,19 +107,14 @@ margin-left: 30px;
    transition-property: color ;
    transition-duration: 250ms;
    transition-timing-function: linear;
-   &-link:focus,
+   &:focus,
   &:hover{
     color: #2196f3;
   }
-&:focus,
-&:hover{
- fill: #2196f3;
-} 
 }
-.contact-header-link:hover .icon-header-mail {
-  fill:  #2196f3;
-}
-.contact-header-link:focus .icon-header-tel {
+
+.contact-header-link:focus,
+.contact-header-link:hover  {
   fill: #2196f3;
 }
  
